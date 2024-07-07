@@ -2,7 +2,6 @@ import random
 
 num = random.randrange(1000, 10000)
 chances = 5
-print(num)
 guess = int(input(f"Guess a 4-digit number, you have {chances} chances: "))
 
 if num == guess:
